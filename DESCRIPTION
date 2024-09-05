@@ -1,0 +1,14 @@
+Package: montyhallv2
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person("Aurora", "Allen-Jones", , "auroraborealis2005@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package creates a game of montyhall which is a randomized game of chance. The contestant chooses doors to win a car and can either stay with their first pick or switch one time. the game can be simulated to give the probability of wins and loses using a loop of 100 rounds. The probability helps to view whether its beneficial to stay or switch during a game.
+Depends:
+    dplyr
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
